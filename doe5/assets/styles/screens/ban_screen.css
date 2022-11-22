@@ -1,0 +1,133 @@
+@import url('../src/colors.css');
+@import url('../src/fonts.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', 'Sans-serif';
+}
+
+body{
+    background-color: var(--blue-1-color);
+}
+
+#main{
+    background-color: var(--blue-2-color);
+    width: 70vw;
+    height: 80vh;
+    padding: 10vh 5vw 0px 5vw;
+    margin: auto;
+}
+
+h2{
+    color: white;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+#form-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 0px 75px 0px;
+    justify-content: space-around;
+}
+
+#barra-pesquisa{
+    font-size: 25px;
+    padding: 0px 0px 0px 30px;
+    border-radius: 100px;
+    height: 60px;
+    width: 60vw;
+}
+
+#btn-search{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#btn-search:hover svg{
+    fill: var(--header-color);
+}
+
+#btn-search svg{
+    height: 35px;
+    fill: red;
+}
+
+#not-found-message{
+    color: yellow;
+    text-align: center;
+}
+
+table{
+    background-color: white;
+}
+
+.table-header{
+    height: 50px;
+    background-color: var(--cian-1-color);
+    text-transform: uppercase;
+}
+
+#ban-table{
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+}
+
+#ban-table{
+    height: 50px;
+}
+
+#ban-table th{
+    text-align: center;
+}
+
+#ban-table, #ban-table th, #ban-table tr,#ban-table td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#ban-table td{
+    text-align: center;
+    padding: 10px;
+}
+
+#ban-table .motivo{
+    text-transform: capitalize;
+}
+
+
+.btn-option svg{
+    border:2px solid transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#btn-delban svg{
+    fill: red;
+}
+
+#btn-unban svg{
+    fill: var(--cian-2-color);
+}
+
+#btn-delban:hover svg{
+    transition: all 0.5s;
+    border:2px solid red;
+} 
+
+#btn-unban:hover svg{
+    transition: all 0.5s;
+    border:2px solid var(--cian-2-color);
+} 

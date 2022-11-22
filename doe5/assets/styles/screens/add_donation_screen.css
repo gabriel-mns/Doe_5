@@ -1,0 +1,129 @@
+@import url('../src/fonts.css');
+@import url('../src/colors.css');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--blue-1-color);
+}
+
+textarea{
+    resize: none;
+}
+
+#main{
+    width: 70vw;
+    margin: auto;
+    background-color: var(--blue-2-color);
+    padding: 10vh 10vh 5vh 10vh;
+}
+
+th,h3{
+    color: white;
+}
+
+h2{
+    color: white;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.icon{
+    background-color: white;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+#form-add-don{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#don-items{
+    margin-top: 50px;
+}
+
+#items-table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.item-input-select{
+    border-radius: 5px;
+    font-size: 22px;
+    width: 200px;
+    height: 50px;
+}
+
+
+.item-input-info-number{
+    border-radius: 5px;
+    text-align: center;
+    font-size: 22px;
+    width: 175px;
+    height: 50px;
+}
+
+.description{
+    width: 50vw;
+    height: 20vh;
+    align-self: center;
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+#encargos-check-field{
+    color: yellow;
+}
+
+#observacoes, #encargos{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px 0px 0px;
+}
+
+#instituicaoBeneficente-select{
+    border-radius: 5px;
+    font-size: 22px;
+    width: fit-content;
+    height: 50px;
+}
+
+#submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+#btn-submit{
+    font-weight: bold;
+    color: black;
+    width: 14vw;
+    height: 2em;
+    font-size: 25px;
+    border: none;
+    border-radius: 100px;
+    background-color: var(--cian-1-color);
+    cursor: pointer;
+    align-self: center;
+    margin-top: 50px;
+}
+
+#btn-submit:hover{
+    background-color: var(--cian-2-color);
+}
+
+.hidden{
+    display: none;
+}

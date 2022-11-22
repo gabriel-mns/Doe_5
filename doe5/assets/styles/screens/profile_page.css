@@ -1,0 +1,110 @@
+@import url('../../styles/src/fonts.css');
+@import url('../../styles/src/colors.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', 'Sans-Serif';
+}
+
+body{
+    background-color: var(--blue-1-color);
+}
+
+#profile-photo{
+    width: 100px;
+}
+
+#main{
+    display: flex;
+    width: 75vw;
+    height: 85vh;
+    margin: auto;
+    background-color: var(--blue-2-color);
+    padding: 0vh 10vh 5vh 0vh;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 0vw 5vh 0vw;
+    height: 80vh;
+    width: 20vw;
+    background-color: white;
+}
+
+#profile-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35vh;
+    align-items: center;
+}
+
+#profile-photo{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 100%;
+    border: 7px solid black;
+    width: 15vh;
+    height: 15vh;
+}
+
+.active{
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banned{
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#ban-option{
+    font-size: 15px;
+    color: red;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ban-option:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container table tr{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#container .info-container{
+    font-size: 22px;
+    display: flex;
+    height: 10vh;
+    width:50vw;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10vw;
+}
+
+.info-container p{
+    text-align: start;
+    width: 50%;
+}

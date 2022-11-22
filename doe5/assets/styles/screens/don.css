@@ -1,0 +1,201 @@
+@import url('./styles/fonts.css');
+@import url('./styles/colors.css');
+
+*{
+    font-family: 'Inter', 'Sans-serif';
+    font-weight: 400;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+body {
+    background-color: var(--blue-1-color);
+}
+
+section{
+    margin: 75px 275px 75px 275px;
+}
+
+h2{
+    color: white;
+    font-size: 80px;
+}
+
+#form-search{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px 75px 0px;
+    justify-content: space-between;
+}
+
+#barra-pesquisa{
+    font-size: 25px;
+    padding: 0px 0px 0px 30px;
+    border-radius: 100px;
+    height: 60px;
+    width: 52vw;
+}
+
+#btn-search{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#btn-search:hover svg{
+    fill: var(--header-color);
+}
+
+#btn-search svg{
+    height: 35px;
+    fill: red;
+}
+
+.donation-info-item{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px 0px 15px 25px;
+    border-radius: 25px;
+    max-height: 10em;
+    overflow: hidden;
+}
+
+#donation-info-local-group img{
+    margin: 10px 10px 10px 10px ;
+}
+
+#donation-info-local-group h4{
+    font-weight: bold;
+}
+
+#donation-info-local-group{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+#donation-info-items-group{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 0px 30px 0px 0px ;
+    margin-left: 60px;
+}
+
+#donation-info-items-group ul{
+    width: 50%;
+    max-height: 15vh;
+    overflow: auto;
+}
+
+#donation-info-options-group{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
+#donation-info-options-group a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+}
+
+#donation-info-options-group .edit:hover svg{
+    fill: green;
+}
+
+#donation-info-options-group .delete:hover svg{
+    fill: red;
+}
+
+#donation-info-options-group .edit:hover{
+    transition: all 0.5s;
+    border: 2px solid green;
+}
+
+#donation-info-options-group .delete:hover{
+    transition: all 0.5s;
+    border: 2px solid red;
+}
+
+#donation-info-options-group a svg{
+    width: 25px;
+}
+
+
+#id{
+    width: 50px;
+    height: 25px;
+}
+
+#idTable{
+    text-align: center;
+}
+
+table{
+    margin:auto;
+    background-color: white;
+    width: 100%;
+}
+
+table{
+    border: 1px solid black;
+}
+
+tr{
+    margin: 100px;
+    height: 15vh;
+}
+
+#not-found-message{
+    color: yellow;
+    text-align: center;
+}
+
+#add-new-donation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: var(--cian-2-color);
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    border: 5px solid white;
+    transition: all 0.5s;
+}
+
+#add-new-donation:hover {
+    width: 6.25em;
+    height: 6.25em;
+    bottom: 40px;
+    right: 40px;
+    transition: all 0.5s;
+}
+
+#add-new-donation:hover svg {
+    transition: all 0.75s;
+    width: 5em;
+    height: 5em;
+}
+
+#add-new-donation svg{
+    fill: white;
+    width: 3.125em;
+}
